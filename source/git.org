@@ -1,0 +1,33 @@
+* Simple github commands
+
+** clone from repository
+
+=clone= using 
+
+#+begin_src bash
+git clone [repository url]
+#+end_src
+
+** Add changes to the files
+
+Add one by one, 
+#+begin_src bash
+git add [file/directory name]
+#+end_src
+
+or all of them
+#+begin_src bash
+git add .
+#+end_src
+
+
+** Commit changes
+
+#+begin_src bash
+git commit -m "[your commit message]"
+#+end_src
+
+** Push to the remote repository (Github)
+#+begin_src bash
+git push origin master
+#+end_src

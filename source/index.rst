@@ -10,6 +10,8 @@ Welcome to ZhoutengYe's Legacy's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   git
+
 
 
 Indices and tables
