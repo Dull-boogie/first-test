@@ -8,6 +8,12 @@
 git clone [repository url]
 #+end_src
 
+** Check the status
+
+#+begin_src bash
+git status
+#+end_src
+
 ** Add changes to the files
 
 Add one by one, 
@@ -30,4 +36,9 @@ git commit -m "[your commit message]"
 ** Push to the remote repository (Github)
 #+begin_src bash
 git push origin master
+#+end_src
+
+** Sync to local
+#+begin_src bash
+git pull origin master
 #+end_src
